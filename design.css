@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 120vh;
+    background-color: #f4f4f4;
+}
+
+/* 좌측 사이드바 */
+aside {
+    width: 25%;
+    background-color: #A9E2F3;
+    color:  black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    text-align: center;
+}
+aside img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 15px;
+}
+main {
+    flex: 1;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile h2 {
+    font-size: 22px;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(158, 215, 251);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.experience ul {
+    list-style-type: none;
+}
+
+.experience li {
+    margin-bottom: 15px;
+}
+
+.experience h3 {
+    font-size: 18px;
+    color: #4a90e2;
+}
+
+.experience p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* 반응형 */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
