@@ -4,23 +4,42 @@
     <meta charset="UTF-8">
     <title>자기소개 페이지</title>
     <link rel = "stylesheet" href = "design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
     <body>
         <!--하늘색 박스 부분-->
+        
         <aside>
             <h2>Profile</h2>
             <br>
             <img src = "profile.jpg" alt = "프로필 이미지">
             <h1>Kim Min Seok</h1>
-            <br><br>
+            <br><br><br>
             <h3>Dream: Frontend developer</h3>
-            <br>
+            <br><br><br>
             <div calss = "contact">    
                 <h4>Mail: 📧 alvinkim105607@gmail.com</h4>
-                <br>
-                <h4 style="display: inline">Instagram: </h4>
-                <a href = "https://www.instagram.com/min_seok_0131/"> @min_seok_0131</a> 
-        </aside>    
+                <br><br><br>
+
+
+
+        
+                <div class="skills">
+                    <h3>💻 Skills</h3>
+                    <br>
+                    <ul>
+                        <li>HTML</li>
+                        <br>
+                        <li>CSS</li>
+                        <br>
+                        <li>C++</li>
+                        <br>
+                        <li>Python</li>
+                    </ul>
+                </div>
+        </aside>  
+          
         <!--그외 나머지-->
         <main>
             <header>
@@ -31,10 +50,15 @@
             <section class="profile">
                 <h2>안녕하세요.</h2>
                 <p>프론트엔드 개발자가 되고 싶은 김민석 입니다.</p>
-                <div class="buttons">
-                    <a href="https://github.com/sskyblue" target="_blank">Github Profile</a>
-                    <a href="https://www.instagram.com/min_seok_0131/" target="blank">Instagram</a>
-                    <a href="#">Solved.AC</a>
+                <br>
+                <div class="social-links">
+                    <a href="https://github.com/사용자이름" target="_blank" class="github-btn">
+                        <i class="fa-brands fa-github"></i> GitHub Profile
+                    </a>
+                    <a href="https://instagram.com/사용자이름" target="_blank" class="instagram-btn">
+                        <i class="fa-brands fa-instagram"></i> Instagram
+                    </a>
+                    <a href="https://solved.ac/profile/kms9937" target="_blank" class="solvedac-btn">Solved.AC</a>
                 </div>
             </section>
     
@@ -61,6 +85,7 @@
             <!-- 프로젝트 -->
             <section class="experience">
                 <h2>프로젝트</h2>
+                <br>
                 <ul>
                     <li>
                         <h3>인포서블: 신입생을 위한 가이드 페이지 제작</h3>
@@ -71,7 +96,17 @@
                     </li>
                 </ul>
             </section>
-    
+            <section class="hobby">
+                    <h2>취미와 기타 정보</h2>
+                    <br>    
+                    <ul>
+                        <li>
+                            <h4>피아노</h4>
+                        </li>
+                        <li>
+                            <h4>음악 듣기</h4> 
+                        </li>
+                    </ul>      
         </main>
 
     </body>
