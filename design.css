@@ -11,7 +11,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* 좌측 사이드바 */
+
 aside {
     width: 25%;
     background-color: #A9E2F3;
@@ -62,7 +62,7 @@ section {
 
 .social-links {
     display: flex;
-    gap: 10px; /* 버튼 사이 간격 */
+    gap: 10px; 
 }
 
 .social-links a {
@@ -77,20 +77,20 @@ section {
 }
 
 .github-btn {
-    background-color: #24292e; /* GitHub 색상 */
+    background-color: #24292e; 
     color: white;
 }
 .solvedac-btn {
-    background-color: rgb(25, 235, 25); /* GitHub 색상 */
+    background-color: rgb(25, 235, 25); 
     color: white;
 }
 .instagram-btn {
-    background-color: rgb(242, 112, 249); /* Instagram 색상 */
+    background-color: rgb(242, 112, 249); 
     color: white;
 }
 
 .social-links i {
-    margin-right: 8px; /* 아이콘과 글자 사이 간격 */
+    margin-right: 8px; 
     font-size: 18px;
 }
 
@@ -113,7 +113,7 @@ section {
     color: #666;
 }
 
-/* 반응형 */
+
 @media (max-width: 768px) {
     body {
         flex-direction: column;
@@ -130,9 +130,9 @@ section {
     }
 }
 .skills ul {
-    list-style-type: disc;  /* 동그라미(•) 스타일 */
-    list-style-position: outside; /* 기호를 왼쪽에 정렬 */
-    padding-left: 20px;  /* 목록 전체 들여쓰기 */
+    list-style-type: disc;  
+    list-style-position: outside; 
+    padding-left: 20px;
     margin: 10px 0;
 }
 
@@ -143,6 +143,6 @@ section {
 }
 
 .skills h3 {
-    margin-bottom: 10px; /* 목록과 간격 조정 */
-    padding-left: 10px; /* 목록과 동일한 들여쓰기 */
+    margin-bottom: 10px; 
+    padding-left: 10px; 
 }
